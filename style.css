@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+}
+:root{
+    --textColor: #FFF700;
+    --bgColor: #212529;
+    --color: #fff;
+    --linkColor: rgb(0, 255, 13);
+}
+.ahref{
+    text-decoration: none;
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-size: 26px;
+    color: #BFBFBF;
+}
+.ahref:hover{
+    color: var(--linkColor);
+}
+.ahrefs:hover{
+    color: var(--linkColor);
+}
+.aa:hover{
+    color: var(--linkColor);
+}
+.aaa:hover{
+    color: var(--linkColor);
+}
+.ahrefs{
+    text-decoration: none;
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+.ahreff{
+    text-decoration: none;
+    margin-right: 15px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #fff;
+    list-style-type: none;
+}
+.aa{
+    text-decoration: none;
+    color:#fff
+}
+.aaa{
+    text-decoration: none;
+    color: var(--textColor);
+}
+.navbar{
+    width: 100%;
+    height: 65px;
+    background: var(--bgColor);
+    display: flex;
+    position: fixed;
+    z-index: 12;
+    justify-content: center;
+}
+.container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.container i:hover{
+    color: var(--linkColor);
+}
+ul{
+    display: flex;
+}
+.ul{
+    width: 70%;
+    height: 100%;
+    flex: 1;
+}
+.li{
+    list-style-type: none;
+    margin: 0 20px;
+    
+}
+.container i{
+    font-size: 23px;
+    color: #fff;
+}
+.bottom_navbar{
+    width: 100%;
+    height: 40px;
+    position: sticky;
+    top: 60px;
+    background:#1C2023;
+}
+.bot_container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.menu{
+    width: 100%;
+    height: 2000px;
+    margin-top: 50px;
+    background: var(--bgColor);
+}
+.menu h2{
+    color: #fff;
+    font-weight: 300;
+    margin-left: 10%;
+    padding-top: 40px;
+}
+.menu_container{
+    width: 80%;
+    padding-top: 20px;
+    margin: auto;
+    display: flex;
+    height: 95%;
+}
+.boxs{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 0px 5px;
+    overflow: hidden;
+    background: #0A0C0D;
+}
+.rasm{
+    width: 100%;
+    height: 50%;
+    background:url(./t-shirt.jpg) no-repeat center/cover;
+}
+.rasm:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.info{
+    width: 100%;
+    height: 50%;
+}
+.info h4{
+    margin: 10px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: var(--color);
+}
+.info h4:hover{
+    color: var(--linkColor);
+}
+.page{
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    background: #0A0C0D;
+}
+.boxs .page{
+    margin: auto;
+}
+.pag{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+}
+.pag>.pages{
+    font-size: 18px;
+    margin: 10px;
+}
+.bolimlar{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+    flex-wrap: wrap;
+    background: var(--bgColor);
+}
+.rek{
+    width: 330px;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#000;
+    
+}
+.rek img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.rek2{
+    width: 330px;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#000;
+    position: sticky;
+    top: 65px;
+}
+.rek3{
+    width: 330px;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#000;
+    position: sticky;
+    top: 65px;
+}
+.bolim{
+    width: 330px;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#000;
+    position: sticky;
+    top: 65px;
+}
+
